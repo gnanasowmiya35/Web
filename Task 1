@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Technology Course</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        color: white;
+        position: absolute;
+    }
+    .main{
+        text-align: center;
+        background-color: hsl(180, 56%, 39%);
+        margin: 20px 0px;
+        top: 0px;
+        /* padding: 7px 7px; */
+        display: flex;
+        position: sticky;
+    }
+    .head{
+        margin-left: 20px;
+    }
+    .navbar{
+        margin-top: 10px;
+        margin-left: 50%;
+    }
+    a{
+        font-size: 22px;
+        color: white;
+        margin-left: 12px;
+        transition: 0.3sec ease;
+    }
+    .navbar a:hover{
+        color: hsl(0, 0%, 0%);
+    }
+    .image{
+        margin-top:10px ;
+        margin-left: 10px;
+        display: flex;
+    }
+     p{
+        margin-left: 5px;
+     } 
+     .form1{
+        background: white;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        width: 300px;
+        margin-left: 500px;
+        margin-top: 20px;
+}
+label{
+    color: black;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5px;
+}
+input{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #a19e9e;
+    border-radius: 4px;
+    font-size: 14px;
+}
+button{
+    font-size: 14px;
+    border-radius:4px ;
+    padding: 10px;
+    background-color: hsl(180, 56%, 39%);
+}
+button:hover{
+  background-color:  hsl(180, 88%, 26%);;
+}
+.footer1{
+        background-color:  hsl(180, 56%, 39%);
+        position: sticky;
+    } 
+    footer{
+        margin-left: 600px;
+    }     
+</style>
+<body>
+    <div class="main">
+        <div class="head">
+            <h1>Web Technology Course</h1>
+        </div>
+        <div class="navbar">
+            <ul>
+                <a  href="#home">Home</a>
+                <a  href="#about">About</a>
+                <a  href="#contact">Contact</a>
+            </ul>
+        </div>
+    </div>
+    <div class="image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqSdVqbe1iCIitUAHRSKRmXU6bYstFNk5ACQ&s" alt="Web Technology">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore doloribus, atque adipisci nam, ipsa nesciunt fugit non totam sed cumque, perferendis dolorem veritatis. Ad deserunt cumque, provident obcaecati deleniti quasi, quae maxime perferendis eaque blanditiis et explicabo! Non voluptas temporibus vero in distinctio libero, enim beatae voluptates tempora, harum minus eum illum magnam! Voluptatem odit est voluptates fuga sunt. Aspernatur excepturi ut minima recusandae sit vel sapiente asperiores vero, quis in magnam animi, quas nemo odio consectetur sunt laudantium eligendi illo optio. Molestiae ducimus dolores, quam velit ad odio vel dicta voluptas, optio ea harum modi hic! Explicabo, hic maxime. Ducimus iure hic alias eveniet! Modi ducimus quisquam earum possimus provident vel accusantium dolor qui, ipsa sed doloribus enim! Nemo aut animi ipsum amet accusamus fuga dignissimos. Eos quaerat dolorum, nostrum nesciunt quo nobis molestiae illo repellat maiores veritatis laudantium perspiciatis rerum. Sunt beatae mollitia excepturi quos fugit provident quia vel quo amet consectetur! Praesentium aspernatur velit laudantium ut, quae, illo omnis molestias exercitationem ullam, veniam at aliquam. Animi voluptates iste natus quo, quisquam dignissimos veritatis! Qui illum laudantium quo id aliquam odio vero ipsa soluta. Ea debitis repellat quia, soluta eligendi, magnam quam qui suscipit quasi perspiciatis quas molestias veritatis at laborum officia unde, illo repellendus incidunt animi odio ducimus. Quae, deleniti illum? In dolorem quia eius culpa totam, pariatur minima iusto cum laudantium neque ea est. Veritatis dolorum repudiandae delectus a perspiciatis ex cupiditate unde? Rem cum itaque eos officia tempore iusto dolorem. Ipsum iure sequi corporis delectus eaque maiores dolorum. Ipsum non voluptatum suscipit distinctio accusamus. Laudantium ipsam esse quaerat qui eaque sunt deleniti ullam placeat? Aspernatur maiores quam ullam accusantium, ipsum quae rem, minus velit laudantium excepturi facilis, error repellat voluptas dolor vero magni aliquam. Illum atque officiis itaque sapiente quaerat quibusdam voluptates suscipit, repudiandae quod.</p>
+    </div>
+    <div class="form1">
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your Name" >
+            <label >Password:</label>
+            <input type="password" placeholder="Enter Your password">
+            <button>Submit</button>
+        </form>
+    </div>
+    <div class="footer1">
+        <footer>
+            <h4 class="contact">Contact Us</h4>
+            <p style="color: black;">Have questions? Reach out to us:</p>
+            <p><a  href="#">Phone</a></p>
+            <p><a  href="#">Email</a></p>
+            <p><a  href="#">Website</a></p>
+        </footer>
+    </div>
+</body>
+</html>
