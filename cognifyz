@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Internship Cognifyz Technologies</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        position: absolute;
+    }
+    .headline{
+        background-color: rgb(11, 241, 153);;
+        top: 0px;
+        padding-top: 20px;
+        justify-content: center;
+        position: sticky;
+    }
+    h1{
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h2{
+        padding-left: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(6, 99, 63);
+    }
+    p{
+        padding-left: 40px;
+        font-size: 20px;
+        color: white;
+        overflow: hidden;
+    }
+    ul{
+        padding-left: 40px;
+        font-size: 20px;
+        color: rgb(8, 167, 106);
+        padding-top:5px; 
+    }
+    h4{
+        padding-left: 40px;
+        margin-top: 5px;
+        font-size: 21px;
+        color: rgb(44, 112, 86);  
+    }
+    li{
+        font-size: 20px;
+        color: white;
+        padding-top: 5px;
+        padding:10px 0px 10px 0px;
+    }
+    .button{
+        margin-left: 450px;
+    }
+    button{
+        background-color: rgb(6, 99, 63);
+        padding: 20px;
+        margin: 30px;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow:3px 3px 2px  rgb(6, 99, 63);
+    }
+    button:hover{
+        transform: scale(1.1);
+    }
+    .footer{
+        background-color: rgb(11, 241, 153);
+        padding: 10px;
+        position: sticky;
+    }
+    .contact{
+        color: black;
+        }
+    p a{
+        text-decoration: none;
+    }
+    footer{
+        display: flex;
+        padding-left: 400px;
+    }
+    .copy{
+        margin-left: 450px;
+    }
+    .popup{
+      background-color: rgb(0, 0, 0);
+      width: 100%;
+      height:100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      opacity: 0.8; 
+      z-index: 3;
+       display: none; 
+    }
+    span{
+        position: absolute;
+        color: white;
+        font-size: 40px;
+        margin-left: 97%;
+        cursor: pointer;
+        margin-top: 30px;
+    }
+    span:hover{
+        color: rgb(245, 10, 10);
+    }
+    .popup .register {
+            background-color: rgb(11, 82, 49);
+            width: 500px;
+            margin: 100px auto;
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+        }
+        .register input {
+            padding: 10px;
+            font-size: 1rem;
+            border-radius: 5px;
+            border: none;
+            margin-left: 130px;
+            margin-bottom: 10px;
+        }
+        .register button {
+            background-color: rgb(5, 78, 54);
+            font-size: 1rem;
+            cursor: pointer;
+            margin-left: 200px;
+            box-shadow: 5px 4px 5px black;
+        }
+</style>
+<body>
+    <div class="headline">
+        <h1>Web Developer Internship Cognifyz Technologies</h1>
+    </div>
+    <div class="body">
+    <div class="About">
+        <h2>About the Internship</h2>
+        <p>Cognifyz Technologies offers a Web Development Internship Program designed to provide hands-on experience in the field of web development. The program is structured to enhance coding skills and deepen understanding of industry best practices.The specific duration and details of each internship are outlined in the offer letter provided to selected candidates.Throughout the internship, participants work on real-world projects, receive mentorship from experienced developers, and have the opportunity to enhance their technical expertise in web development.For the most current information on available internship opportunities and their durations, it's advisable to visit Cognifyz Technologies' official website or contact their internship program coordinators directly.</p>
+        <ul>Duration:
+            <li><b>One-Month Internship:</b> Some programs are structured as intensive one-month internships, focusing on enhancing coding skills and providing practical experience in web development.</li>
+            <li><b>Six-Month Internship:</b> Other opportunities extend to six months, allowing interns to gain deeper insights and develop their skills over a more extended period.</li>
+        </ul>
+    </div>
+    <div class="highlight">
+        <h2>High Lights</h2>
+        <ul>Real-World Projects:
+            <li>Interns work on live projects to apply theoretical knowledge in practical scenarios.</li>
+            <li>Exposure to cutting-edge web development technologies and frameworks.</li>
+        </ul>
+            <ul>Skill Enhancement:
+                <li>Focus on key web development areas like HTML, CSS, JavaScript, React, Angular, Node.js, etc.</li>
+                <li>Opportunities to learn and work on backend development and database management.</li>
+            </ul>
+            <ul>Mentorship:
+                <li>Guided by experienced professionals in the field.</li>
+                <li>Regular feedback to improve technical skills and code quality.</li>
+            </ul>
+            <ul>Comprehensive Learning:
+                <li>Sessions on best practices in coding, debugging, and optimization.</li>
+                <li>Workshops and webinars on the latest trends in web development.</li>
+            </ul>
+            <ul>Career Opportunities:
+                <li>Networking opportunities with industry experts.</li>
+                <li>Potential for full-time job offers based on performance during the internship.</li>
+            </ul>
+            <ul>Certification:
+                <li>A certificate of completion provided at the end of the program.</li>
+                <li>Recognition of skills and experience gained.</li>
+            </ul> 
+    <div class="quality">
+        <h2>Qualification</h2>
+        <p>To apply for the Web Developer Internship at Cognifyz Technologies, candidates typically need to meet the following qualifications:</p>
+        <h4><b>Educational Background:</b></h4>
+        <ul>
+            <li>Currently pursuing or recently completed a degree in Computer Science, Information Technology, or a related field.</li>
+            <li>Candidates from non-technical backgrounds with strong web development skills may also be considered.</li>
+        </ul>
+        <h4><b>Technical Skills:</b></h4>
+        <ul><b>Basic Knowledge:</b>
+            <li>HTML, CSS, and JavaScript are mandatory.</li>
+            <li>Understanding of responsive design and browser compatibility.</li>
+        </ul>
+        <ul><b>Advanced Skills (Preferred):</b>
+            <li>Experience with frameworks like React, Angular, or Vue.js.</li>
+            <li>Knowledge of backend technologies such as Node.js, PHP, or Python.</li>
+            <li>Familiarity with databases like MySQL, MongoDB, or PostgreSQL.</li>
+        </ul>
+        <h4>Additional Requirements:</h4>
+        <ul><b>Problem-Solving Skills:</b>
+            <li>Ability to debug and optimize code efficiently.</li>
+        </ul>
+        <ul><b>Teamwork:</b>
+            <li>Strong communication and collaboration skills to work effectively in a team environment.</li>
+        </ul>
+        <ul><b>Portfolio or Projects:</b>
+            <li>Having a portfolio or GitHub repository showcasing previous projects is a plus.
+            </li>
+        </ul>
+        <ul><b>Passion for Learning:</b>
+            <li>Eagerness to explore new technologies and tools in web development.</li>
+        </ul>
+        <ul><b>Availability:</b>
+            <li>Commitment to the internship duration (ranging from 1 to 6 months).</li>
+        </ul>
+    </div>
+</div>
+    <div class="button">
+        <button>Learn More</button>
+        <button class="apply">Apply Now</button>     
+    </div>
+      <div class="footer">
+        <footer>
+            <div class="footer1">
+            <h4 class="contact">Contact Us</h4>
+            <p style="color: black;">Have questions? Reach out to us:</p>
+            <p><a href="#">Phone</a></p>
+            <p><a href="#">Email</a></p>
+            <p><a href="#">Website</a></p>
+            </div>
+            <div class="footer2">
+            <h4 class="contact">Follow Us</h4>
+            <p><a href="#">Instagram</a></p>
+            <p><a href="#">Facebook</a></p>
+            <p><a href="#">YouTube</a></p>
+            <p><a href="#">Twitter</a></p>
+            </div>
+        </footer>
+        <p style="color: black;" class="copy">&copy; 2025 Cognifyz Technology</p>
+      </div>
+    </div>
+    <div class="popup">
+        <span class="close">&times;</span>
+        <div class="register">
+            <h1>Registration</h1>
+            <form>
+                <input type="text" placeholder="Enter Your Nme">
+                <input type="Email" placeholder="Enter Your Email">
+                <input type="Number" placeholder="Enter Your Number">
+                <input type="password" placeholder="Create password">
+                <input type="password" placeholder="Confirm password">
+            </form>
+            <button class="submit">Submit</button>
+        </div>
+    </div>
+    <script>
+         let button=document.querySelector('.apply');
+         let close=document.querySelector('.close');
+         let popup=document.querySelector('.popup');
+         let register=document.querySelector('.register')
+         button.addEventListener('click',()=>{
+             popup.style.display="block";
+             register.style.display="block";
+          });
+         close.addEventListener('click',()=>{
+             popup.style.display="none";
+        });
+
+    </script>
+</body>
+</html>
